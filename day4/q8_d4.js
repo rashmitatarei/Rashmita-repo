@@ -2,15 +2,19 @@
 
 // Example:
 // Input: "racecar"
-// Output: true
-
+// Output: true in javascript
 
 function isPalindrome(word) {
-    const reversedWord = word.split('').reverse().join('');
-    return word === reversedWord;
+    const length = word.length;
+    for (let i = 0; i < length / 2; i++) {
+      if (word[i] !== word[length - 1 - i]) {
+        return false;
+      }
+    }
+    return true;
   }
   
   const input = "racecar";
   const output = isPalindrome(input);
-  console.log(output); 
+  console.log(output); // Output: true
   

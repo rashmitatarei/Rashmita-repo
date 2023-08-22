@@ -5,12 +5,13 @@
 // Output: "olleh"
 
 
-function reverseString(inputString) {
-    return inputString.split('').reverse().join('');
-  }
+// function reverseString(inputString) {
+//     return inputString.split('').reverse().join('');
+//   }
   
-  // Example usage:
-  const input = "hello";
-  const reversed = reverseString(input);
-  console.log(reversed); 
+//   // Example usage:
+//   const input = "hello";
+//   const reversed = reverseString(input);
+//   console.log(reversed); 
   
+
